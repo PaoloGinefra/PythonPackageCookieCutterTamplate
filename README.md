@@ -6,6 +6,7 @@ Integrations:
 
 - Pytest
 - Poetry
+- Git/Github
 
 To generate the template you can run:
 
@@ -13,4 +14,13 @@ To generate the template you can run:
 pip install pipx
 pipx install cookiecutter
 cookiecutter gh:PaoloGinefra/PythonPackageCookieCutterTamplate
+```
+
+If you pass a `remoteOrigin`, it will automatically setup a remote repository with the given url. If "None" is passed it will just setup a git repository without a remote origin.
+
+Once you generated the template you can install the generated package with:
+
+```bash
+cd [packageName]
+pip install -e .
 ```
