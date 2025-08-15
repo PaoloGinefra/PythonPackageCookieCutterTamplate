@@ -1,5 +1,6 @@
 {
     "packageName": "myPackage",
     "authorName": "Mario Rossi",
-    "authorEmail": "mario.rossi@email.com"
+    "authorEmail": "mario.rossi@email.com",
+    "remoteOrigin" : "None"
 }
