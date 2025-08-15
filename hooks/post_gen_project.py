@@ -9,7 +9,7 @@ subprocess.run("git init")
 subprocess.run("git add .")
 
 #Make first commit
-subprocess.run("git commit -a -m \"first commit: python package boilerplate from https://github.com/PaoloGinefra/PythonPackageCookieCutterTamplate\"")
+subprocess.run("git commit -a -m \"first commit: python package template from https://github.com/PaoloGinefra/PythonPackageCookieCutterTamplate\"")
 
 if remoteOrigin != "None":
     #Add remote origin
