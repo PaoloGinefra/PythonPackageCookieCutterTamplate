@@ -7,6 +7,7 @@ Integrations:
 - Pytest
 - Poetry
 - Git/Github
+- MIT license
 
 To generate the template you can run:
 
