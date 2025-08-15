@@ -1,8 +1,10 @@
 [project]
-name = "mypoetrytemplate"
+name = "{{cookiecutter.packageName}}"
 version = "0.1.0"
 description = ""
-authors = [{ name = "Paolo Ginefra", email = "ginefra.paolo@gmail.com" }]
+authors = [
+    { name = "{{cookiecutter.authorName}}", email = "{{cookiecutter.authorEmail}}" },
+]
 readme = "README.md"
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
@@ -10,7 +12,7 @@ requires-python = ">=3.12"
 dependencies = ["pytest (>=8.4.1,<9.0.0)"]
 
 [tool.poetry]
-packages = [{ include = "mypoetrytemplate", from = "src" }]
+packages = [{ include = "{{cookiecutter.packageName}}", from = "src" }]
 
 
 [build-system]
