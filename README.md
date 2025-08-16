@@ -25,3 +25,25 @@ Once you generated the template you can install the generated package with:
 cd [packageName]
 pip install -e .
 ```
+
+## Poetry
+
+Poetry is a great way to manage dependencies. You can install it with
+
+```bash
+pipx install poetry
+```
+
+Once you have poetry set up, you can create a venv and install the dependencies with:
+
+```bash
+poetry config virtualenvs.in-project true #This will create the virtual environment in the project folder
+
+poetry install
+```
+
+After that you can dependencies with:
+
+```bash
+poetry add [your dep]
+```
